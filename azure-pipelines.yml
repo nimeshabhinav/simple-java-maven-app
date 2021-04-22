@@ -1,4 +1,7 @@
 # Maven
+- task: WhiteSource@21
+  inputs:
+    cwd: '$(System.DefaultWorkingDirectory)'
 
 
 # Build your Java project and run tests with Apache Maven.
