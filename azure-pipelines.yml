@@ -7,10 +7,7 @@
 
 trigger:
 - master
-- task: WhiteSource@21
-  inputs:
-    cwd: '$(System.DefaultWorkingDirectory)'
-    projectName: 'MavenWhiteSource'
+
 
 pool:
   vmImage: ubuntu-latest
